@@ -1,0 +1,514 @@
+{
+  "tournament": {
+    "seed": 20261119,
+    "total_instances": 500,
+    "certificates_verified": 500,
+    "overall": {
+      "T1_float64_L0": {
+        "TP": 80,
+        "FP": 89,
+        "TN": 111,
+        "FN": 220,
+        "total": 500,
+        "accuracy_pct": 38.2,
+        "precision_pct": 47.34,
+        "recall_pct": 26.67,
+        "f1_pct": 34.12,
+        "avg_ms": 2.277,
+        "max_bits": 0
+      },
+      "T2_float64_SVD_l2": {
+        "TP": 140,
+        "FP": 40,
+        "TN": 160,
+        "FN": 160,
+        "total": 500,
+        "accuracy_pct": 60.0,
+        "precision_pct": 77.78,
+        "recall_pct": 46.67,
+        "f1_pct": 58.33,
+        "avg_ms": 5.935,
+        "max_bits": 0
+      },
+      "T3_exact_Q_only": {
+        "TP": 170,
+        "FP": 20,
+        "TN": 180,
+        "FN": 130,
+        "total": 500,
+        "accuracy_pct": 70.0,
+        "precision_pct": 89.47,
+        "recall_pct": 56.67,
+        "f1_pct": 69.39,
+        "avg_ms": 0.157,
+        "max_bits": 519
+      },
+      "T4_exact_ZQ_Tarski_Radar": {
+        "TP": 300,
+        "FP": 0,
+        "TN": 200,
+        "FN": 0,
+        "total": 500,
+        "accuracy_pct": 100.0,
+        "precision_pct": 100.0,
+        "recall_pct": 100.0,
+        "f1_pct": 100.0,
+        "avg_ms": 0.166,
+        "max_bits": 519
+      }
+    },
+    "per_class": {
+      "C1_Float64_Cliff_and_Decoys": {
+        "T1_float64_L0": {
+          "TP": 0,
+          "FP": 29,
+          "TN": 11,
+          "FN": 60,
+          "total": 100,
+          "accuracy_pct": 11.0,
+          "precision_pct": 0.0,
+          "recall_pct": 0.0,
+          "f1_pct": 0.0,
+          "avg_ms": 9.344,
+          "max_bits": 0
+        },
+        "T2_float64_SVD_l2": {
+          "TP": 30,
+          "FP": 20,
+          "TN": 20,
+          "FN": 30,
+          "total": 100,
+          "accuracy_pct": 50.0,
+          "precision_pct": 60.0,
+          "recall_pct": 50.0,
+          "f1_pct": 54.55,
+          "avg_ms": 21.087,
+          "max_bits": 0
+        },
+        "T3_exact_Q_only": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.221,
+          "max_bits": 519
+        },
+        "T4_exact_ZQ_Tarski_Radar": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.244,
+          "max_bits": 519
+        }
+      },
+      "C2_Zm_Torsion_Loops": {
+        "T1_float64_L0": {
+          "TP": 60,
+          "FP": 40,
+          "TN": 0,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 60.0,
+          "precision_pct": 60.0,
+          "recall_pct": 100.0,
+          "f1_pct": 75.0,
+          "avg_ms": 0.87,
+          "max_bits": 0
+        },
+        "T2_float64_SVD_l2": {
+          "TP": 0,
+          "FP": 0,
+          "TN": 40,
+          "FN": 60,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 100.0,
+          "recall_pct": 0.0,
+          "f1_pct": 0.0,
+          "avg_ms": 4.432,
+          "max_bits": 0
+        },
+        "T3_exact_Q_only": {
+          "TP": 0,
+          "FP": 0,
+          "TN": 40,
+          "FN": 60,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 100.0,
+          "recall_pct": 0.0,
+          "f1_pct": 0.0,
+          "avg_ms": 0.189,
+          "max_bits": 6
+        },
+        "T4_exact_ZQ_Tarski_Radar": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.186,
+          "max_bits": 6
+        }
+      },
+      "C3_Simplicial_H2_and_RP2": {
+        "T1_float64_L0": {
+          "TP": 0,
+          "FP": 0,
+          "TN": 40,
+          "FN": 60,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 100.0,
+          "recall_pct": 0.0,
+          "f1_pct": 0.0,
+          "avg_ms": 0.049,
+          "max_bits": 0
+        },
+        "T2_float64_SVD_l2": {
+          "TP": 30,
+          "FP": 0,
+          "TN": 40,
+          "FN": 30,
+          "total": 100,
+          "accuracy_pct": 70.0,
+          "precision_pct": 100.0,
+          "recall_pct": 50.0,
+          "f1_pct": 66.67,
+          "avg_ms": 0.277,
+          "max_bits": 0
+        },
+        "T3_exact_Q_only": {
+          "TP": 30,
+          "FP": 0,
+          "TN": 40,
+          "FN": 30,
+          "total": 100,
+          "accuracy_pct": 70.0,
+          "precision_pct": 100.0,
+          "recall_pct": 50.0,
+          "f1_pct": 66.67,
+          "avg_ms": 0.088,
+          "max_bits": 5
+        },
+        "T4_exact_ZQ_Tarski_Radar": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.084,
+          "max_bits": 5
+        }
+      },
+      "C4_Decoy_Mazes_and_MUS": {
+        "T1_float64_L0": {
+          "TP": 0,
+          "FP": 0,
+          "TN": 40,
+          "FN": 60,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 100.0,
+          "recall_pct": 0.0,
+          "f1_pct": 0.0,
+          "avg_ms": 0.758,
+          "max_bits": 0
+        },
+        "T2_float64_SVD_l2": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 3.227,
+          "max_bits": 0
+        },
+        "T3_exact_Q_only": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.254,
+          "max_bits": 1
+        },
+        "T4_exact_ZQ_Tarski_Radar": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.245,
+          "max_bits": 1
+        }
+      },
+      "C5_Tarski_Horn_and_Caru_Ghosts": {
+        "T1_float64_L0": {
+          "TP": 20,
+          "FP": 20,
+          "TN": 20,
+          "FN": 40,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 50.0,
+          "recall_pct": 33.33,
+          "f1_pct": 40.0,
+          "avg_ms": 0.366,
+          "max_bits": 0
+        },
+        "T2_float64_SVD_l2": {
+          "TP": 20,
+          "FP": 20,
+          "TN": 20,
+          "FN": 40,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 50.0,
+          "recall_pct": 33.33,
+          "f1_pct": 40.0,
+          "avg_ms": 0.65,
+          "max_bits": 0
+        },
+        "T3_exact_Q_only": {
+          "TP": 20,
+          "FP": 20,
+          "TN": 20,
+          "FN": 40,
+          "total": 100,
+          "accuracy_pct": 40.0,
+          "precision_pct": 50.0,
+          "recall_pct": 33.33,
+          "f1_pct": 40.0,
+          "avg_ms": 0.035,
+          "max_bits": 4
+        },
+        "T4_exact_ZQ_Tarski_Radar": {
+          "TP": 60,
+          "FP": 0,
+          "TN": 40,
+          "FN": 0,
+          "total": 100,
+          "accuracy_pct": 100.0,
+          "precision_pct": 100.0,
+          "recall_pct": 100.0,
+          "f1_pct": 100.0,
+          "avg_ms": 0.069,
+          "max_bits": 1
+        }
+      }
+    },
+    "localization_summary": {
+      "n_mazes": 20,
+      "l2_avg_innocent_energy_pct": 22.15,
+      "l2_avg_top_k_precision": 64.57,
+      "l0_avg_precision": 100.0,
+      "l0_avg_recall": 100.0,
+      "l0_avg_false_blame_pct": 0.0,
+      "l0_all_verified_minimal": true,
+      "mcs_all_exact_root_cause": true
+    }
+  },
+  "scaling_and_bitswell": {
+    "scaling": [
+      {
+        "cells": 50,
+        "V": 16,
+        "E": 34,
+        "full_q_ms": 0.11,
+        "full_z_ms": 0.1,
+        "full_snf_ms": 0.07,
+        "markowitz_no_dhsw_ms": 0.22,
+        "naive_dense_ms": 0.12,
+        "peak_bits_z": 3,
+        "peak_bits_snf": 3
+      },
+      {
+        "cells": 150,
+        "V": 50,
+        "E": 100,
+        "full_q_ms": 0.26,
+        "full_z_ms": 0.28,
+        "full_snf_ms": 0.22,
+        "markowitz_no_dhsw_ms": 1.55,
+        "naive_dense_ms": 1.34,
+        "peak_bits_z": 3,
+        "peak_bits_snf": 3
+      },
+      {
+        "cells": 400,
+        "V": 133,
+        "E": 267,
+        "full_q_ms": 0.64,
+        "full_z_ms": 0.62,
+        "full_snf_ms": 0.78,
+        "markowitz_no_dhsw_ms": 9.84,
+        "naive_dense_ms": 8.57,
+        "peak_bits_z": 3,
+        "peak_bits_snf": 3
+      },
+      {
+        "cells": 1000,
+        "V": 333,
+        "E": 667,
+        "full_q_ms": 1.57,
+        "full_z_ms": 1.64,
+        "full_snf_ms": 3.21,
+        "markowitz_no_dhsw_ms": 60.46,
+        "naive_dense_ms": 55.16,
+        "peak_bits_z": 3,
+        "peak_bits_snf": 3
+      },
+      {
+        "cells": 2500,
+        "V": 833,
+        "E": 1667,
+        "full_q_ms": 4.13,
+        "full_z_ms": 3.81,
+        "full_snf_ms": 16.25,
+        "markowitz_no_dhsw_ms": 390.82,
+        "naive_dense_ms": null,
+        "peak_bits_z": 3,
+        "peak_bits_snf": 3
+      },
+      {
+        "cells": 5200,
+        "V": 1733,
+        "E": 3467,
+        "full_q_ms": 8.43,
+        "full_z_ms": 8.17,
+        "full_snf_ms": 62.23,
+        "markowitz_no_dhsw_ms": null,
+        "naive_dense_ms": null,
+        "peak_bits_z": 3,
+        "peak_bits_snf": 3
+      }
+    ],
+    "bitswell": [
+      {
+        "dim": 4,
+        "input_max_bits": 6,
+        "iliopoulos_mod2D_max_bits": 11,
+        "iliopoulos_mod2D_ms": 0.09,
+        "unbounded_euclid_max_bits": 18,
+        "unbounded_euclid_ms": 0.05,
+        "snf_torsion": [
+          2,
+          2,
+          6
+        ]
+      },
+      {
+        "dim": 6,
+        "input_max_bits": 10,
+        "iliopoulos_mod2D_max_bits": 16,
+        "iliopoulos_mod2D_ms": 0.16,
+        "unbounded_euclid_max_bits": 20,
+        "unbounded_euclid_ms": 0.08,
+        "snf_torsion": [
+          2,
+          2,
+          2,
+          6
+        ]
+      },
+      {
+        "dim": 8,
+        "input_max_bits": 11,
+        "iliopoulos_mod2D_max_bits": 23,
+        "iliopoulos_mod2D_ms": 0.28,
+        "unbounded_euclid_max_bits": 73,
+        "unbounded_euclid_ms": 0.23,
+        "snf_torsion": [
+          2,
+          2,
+          2,
+          2,
+          6
+        ]
+      },
+      {
+        "dim": 10,
+        "input_max_bits": 10,
+        "iliopoulos_mod2D_max_bits": 23,
+        "iliopoulos_mod2D_ms": 0.47,
+        "unbounded_euclid_max_bits": 431,
+        "unbounded_euclid_ms": 0.4,
+        "snf_torsion": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          6
+        ]
+      },
+      {
+        "dim": 12,
+        "input_max_bits": 10,
+        "iliopoulos_mod2D_max_bits": 20,
+        "iliopoulos_mod2D_ms": 0.71,
+        "unbounded_euclid_max_bits": 656,
+        "unbounded_euclid_ms": 0.66,
+        "snf_torsion": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          6
+        ]
+      },
+      {
+        "dim": 14,
+        "input_max_bits": 11,
+        "iliopoulos_mod2D_max_bits": 30,
+        "iliopoulos_mod2D_ms": 1.1,
+        "unbounded_euclid_max_bits": 881,
+        "unbounded_euclid_ms": 1.0,
+        "snf_torsion": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          2,
+          6
+        ]
+      }
+    ]
+  }
+}

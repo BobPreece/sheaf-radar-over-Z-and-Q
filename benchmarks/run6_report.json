@@ -1,0 +1,164 @@
+{
+  "quantum_contextuality": [
+    {
+      "name": "Mermin_Peres_Magic_Square",
+      "n_vars": 15,
+      "n_eqs": 6,
+      "nullity": 9,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": false,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "Z_TORSOR_TORSION",
+      "cg_cuts_count": 0,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.091,
+      "reason": "Refuted directly by exact Z-torsor (UNSAT_TORSION)",
+      "cert_verified": true
+    },
+    {
+      "name": "GHZ_3Qubit_Paradox",
+      "n_vars": 10,
+      "n_eqs": 4,
+      "nullity": 6,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": false,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "Z_TORSOR_TORSION",
+      "cg_cuts_count": 0,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.063,
+      "reason": "Refuted directly by exact Z-torsor (UNSAT_TORSION)",
+      "cert_verified": true
+    },
+    {
+      "name": "Cabello_18Ray_KS",
+      "n_vars": 18,
+      "n_eqs": 9,
+      "nullity": 9,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": false,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "Z_TORSOR_TORSION",
+      "cg_cuts_count": 0,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.117,
+      "reason": "Refuted directly by exact Z-torsor (UNSAT_TORSION)",
+      "cert_verified": true
+    },
+    {
+      "name": "Hardy_16Var_Caru_Ghost",
+      "n_vars": 16,
+      "n_eqs": 5,
+      "nullity": 11,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": true,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "TARSKI_1ROW_INTERVAL",
+      "cg_cuts_count": 0,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.048,
+      "reason": "Interval range contradiction: rhs=1 outside [0, 0]",
+      "cert_verified": true
+    },
+    {
+      "name": "Two_Triangle_CG_Ghost",
+      "n_vars": 18,
+      "n_eqs": 10,
+      "nullity": 8,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": true,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "CHVATAL_GOMORY_CUT",
+      "cg_cuts_count": 9,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.576,
+      "reason": "CG subset-cover contradiction: rhs=4 > CG-tightened max=3 via ['CG(g=2, rows=(0, 2, 1)): sum<=1 (floor(3/2))', 'CG(g=2, rows=(5, 3, 4)): sum<=1 (floor(3/2))', 'CG(g=2, rows=(8, 6, 7)): sum<=1 (floor(3/2))']",
+      "cert_verified": true
+    },
+    {
+      "name": "KCBS_Pentagon_CG_Ghost",
+      "n_vars": 30,
+      "n_eqs": 16,
+      "nullity": 14,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": true,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "CHVATAL_GOMORY_CUT",
+      "cg_cuts_count": 3,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.532,
+      "reason": "CG subset-cover contradiction: rhs=7 > CG-tightened max=6 via ['CG(g=2, rows=(0, 1, 2, 3, 4)): sum<=2 (floor(5/2))', 'CG(g=2, rows=(5, 6, 7, 8, 9)): sum<=2 (floor(5/2))', 'CG(g=2, rows=(10, 11, 12, 13, 14)): sum<=2 (floor(5/2))']",
+      "cert_verified": true
+    },
+    {
+      "name": "Order_Algebraic_SCC_Ghost",
+      "n_vars": 3,
+      "n_eqs": 1,
+      "nullity": 2,
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": true,
+      "v2_sound_verdict": "CERTIFIED_UNSAT",
+      "proof_stage": "TARSKI_SCC_ORDER",
+      "cg_cuts_count": 0,
+      "bb_nodes": 0,
+      "elapsed_ms": 0.078,
+      "reason": "Directed Tarski equality-SCC + Z-torsor refuted (UNSAT_TORSION)",
+      "cert_verified": true
+    }
+  ],
+  "high_nullity": {
+    "hidden_cg_cut_stress": [
+      {
+        "extra_free_vars": 40,
+        "total_vars": 58,
+        "nullity": 40,
+        "sound_verdict": "CERTIFIED_UNSAT",
+        "proof_stage": "CHVATAL_GOMORY_CUT",
+        "cg_cuts_count": 3,
+        "bb_nodes": 0,
+        "elapsed_ms": 0.492
+      },
+      {
+        "extra_free_vars": 60,
+        "total_vars": 78,
+        "nullity": 56,
+        "sound_verdict": "CERTIFIED_UNSAT",
+        "proof_stage": "CHVATAL_GOMORY_CUT",
+        "cg_cuts_count": 3,
+        "bb_nodes": 0,
+        "elapsed_ms": 0.6
+      },
+      {
+        "extra_free_vars": 80,
+        "total_vars": 98,
+        "nullity": 72,
+        "sound_verdict": "CERTIFIED_UNSAT",
+        "proof_stage": "CHVATAL_GOMORY_CUT",
+        "cg_cuts_count": 3,
+        "bb_nodes": 0,
+        "elapsed_ms": 0.671
+      }
+    ],
+    "planted_hard_budget_48": {
+      "n_vars": 64,
+      "nullity": 50,
+      "sound_verdict": "CERTIFIED_SAT",
+      "bb_nodes": 37,
+      "elapsed_ms": 4.373
+    },
+    "planted_hard_budget_2": {
+      "n_vars": 64,
+      "nullity": 50,
+      "sound_verdict": "OPEN_BUDGET_EXCEEDED",
+      "bb_nodes": 3,
+      "elapsed_ms": 0.504
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "domain": "unit_conversion",
+  "title": "Metric/Imperial & FX 10^-17 Micro-Arbitrage Loop (Invisible to IEEE-754 float64)",
+  "claims": [
+    {
+      "id": "conv_in_to_mm",
+      "op": "ratio",
+      "from": "inch",
+      "to": "mm",
+      "num": 127,
+      "den": 5,
+      "description": "Exact SI definition: 1 inch = 25.4 mm (127/5)"
+    },
+    {
+      "id": "conv_ft_to_in",
+      "op": "ratio",
+      "from": "foot",
+      "to": "inch",
+      "num": 12,
+      "den": 1,
+      "description": "Exact imperial definition: 1 foot = 12 inches"
+    },
+    {
+      "id": "conv_yd_to_ft",
+      "op": "ratio",
+      "from": "yard",
+      "to": "foot",
+      "num": 3,
+      "den": 1,
+      "description": "Exact imperial definition: 1 yard = 3 feet"
+    },
+    {
+      "id": "conv_m_to_mm",
+      "op": "ratio",
+      "from": "meter",
+      "to": "mm",
+      "num": 1000,
+      "den": 1,
+      "description": "Exact SI definition: 1 meter = 1000 mm"
+    },
+    {
+      "id": "conv_yd_to_m_exact",
+      "op": "ratio",
+      "from": "yard",
+      "to": "meter",
+      "num": 1143,
+      "den": 1250,
+      "description": "Exact consistent bridge: 1 yard = 0.9144 meter (1143/1250)"
+    },
+    {
+      "id": "fx_usd_eur",
+      "op": "ratio",
+      "from": "USD",
+      "to": "EUR",
+      "num": 92,
+      "den": 100,
+      "description": "FX Quote 1: 1 USD = 0.92 EUR"
+    },
+    {
+      "id": "fx_eur_gbp",
+      "op": "ratio",
+      "from": "EUR",
+      "to": "GBP",
+      "num": 85,
+      "den": 100,
+      "description": "FX Quote 2: 1 EUR = 0.85 GBP"
+    },
+    {
+      "id": "fx_gbp_usd_micro_arb",
+      "op": "ratio",
+      "from": "GBP",
+      "to": "USD",
+      "num": 500000000000000000001,
+      "den": 391000000000000000000,
+      "description": "Stealth micro-arbitrage quote: 1 GBP = (5e20 + 1) / 3.91e20 USD (float64 product == 1.0000000000000000!)"
+    }
+  ]
+}

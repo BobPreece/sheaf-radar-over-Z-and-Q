@@ -1,0 +1,12 @@
+{
+  "domain": "group_labeling",
+  "title": "Distributed Consensus Polarity Ring (5-Node Odd Mobius Z/2Z Torsion Trap)",
+  "claims": [
+    {"id": "link_01", "op": "negate", "a": "node_0", "b": "node_1", "offset": 0, "description": "Node 0 and Node 1 have opposite polarity (x_0 + x_1 = 0)"},
+    {"id": "link_12", "op": "negate", "a": "node_1", "b": "node_2", "offset": 0, "description": "Node 1 and Node 2 have opposite polarity (x_1 + x_2 = 0)"},
+    {"id": "link_23", "op": "negate", "a": "node_2", "b": "node_3", "offset": 0, "description": "Node 2 and Node 3 have opposite polarity (x_2 + x_3 = 0)"},
+    {"id": "link_34", "op": "negate", "a": "node_3", "b": "node_4", "offset": 0, "description": "Node 3 and Node 4 have opposite polarity (x_3 + x_4 = 0)"},
+    {"id": "link_40_twist", "op": "negate", "a": "node_4", "b": "node_0", "offset": 1, "description": "Odd Mobius twist: x_4 + x_0 = 1 (forces 2*x_0 = 1 -> Z/2Z torsion; float64/Q accept x_0 = 0.5!)"},
+    {"id": "decoy_cluster", "op": "same", "a": "replica_A", "b": "replica_B", "description": "Valid decoy cluster: replica_A == replica_B"}
+  ]
+}

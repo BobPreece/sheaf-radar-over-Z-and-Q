@@ -1,0 +1,125 @@
+"""sheaf-radar-over-Z-and-Q v2.0.0: Zero-Dependency Exact Z/Q Cellular Sheaf,
+Double-Determinant Expander Compression, Chvatal-Gomory Contextuality Closure,
+Streaming Pre-Commit Sheaf Firewall & 5-Domain Forensic Claim Compiler.
+
+Author: Bob Preece (2026), MIT License.
+"""
+
+__version__ = "2.0.0"
+
+from .cellular_complex import (
+    CellularSheaf1Complex,
+    Cohomology1Report,
+    Cohomology2Report,
+    Simplicial2Complex,
+)
+from .claim_compiler import (
+    SUPPORTED_DOMAINS,
+    ContradictionAutopsy,
+    compile_and_verify,
+    verify_json_file,
+)
+from .float64_baseline import (
+    evaluate_float64_laplacian,
+    evaluate_float64_svd_torsor,
+    l2_hodge_harmonic_cg,
+    svd_golub_kahan_float64,
+    symmetric_eigenvalues_float64,
+)
+from .mus_quickxplain import (
+    MCSReport,
+    MUSReport,
+    SmearingComparison,
+    evaluate_l2_smearing_vs_quickxplain,
+    find_mcs_hitting_set,
+    localize_1complex_mus,
+    localize_2complex_h2_mus,
+    quickxplain_mus,
+)
+from .sparse_exact import (
+    CRT_PRIMES_61,
+    PRIME_1,
+    PRIME_2,
+    SNFResult,
+    SparseIntMatrix,
+    TorsorResult,
+    bareiss_det_dense,
+    bareiss_jordan_solve,
+    compute_exact_rref_rows,
+    compute_snf,
+    double_det_lattice_bound,
+    factor_prime_powers,
+    solve_torsor,
+    sparse_minor_crt_det_and_adj_solve,
+    verify_torsor_certificate,
+    xgcd,
+)
+from .streaming_firewall import (
+    FirewallClaim,
+    FirewallVerdict,
+    IncrementalSheafFirewall,
+)
+from .tarski_hybrid import (
+    BitmaskPowersetLattice,
+    CGCut,
+    DirectedIntInequality,
+    GaloisConnection,
+    HybridTorsorTarskiResult,
+    TarskiFlowResult,
+    TarskiLatticeSheaf,
+    check_hybrid_feasible,
+    solve_hybrid_torsor_tarski,
+)
+
+__all__ = [
+    "__version__",
+    "CRT_PRIMES_61",
+    "PRIME_1",
+    "PRIME_2",
+    "SparseIntMatrix",
+    "TorsorResult",
+    "SNFResult",
+    "solve_torsor",
+    "compute_snf",
+    "verify_torsor_certificate",
+    "bareiss_det_dense",
+    "bareiss_jordan_solve",
+    "compute_exact_rref_rows",
+    "double_det_lattice_bound",
+    "factor_prime_powers",
+    "sparse_minor_crt_det_and_adj_solve",
+    "xgcd",
+    "CellularSheaf1Complex",
+    "Cohomology1Report",
+    "Simplicial2Complex",
+    "Cohomology2Report",
+    "MUSReport",
+    "MCSReport",
+    "SmearingComparison",
+    "quickxplain_mus",
+    "find_mcs_hitting_set",
+    "localize_1complex_mus",
+    "localize_2complex_h2_mus",
+    "evaluate_l2_smearing_vs_quickxplain",
+    "BitmaskPowersetLattice",
+    "CGCut",
+    "GaloisConnection",
+    "TarskiLatticeSheaf",
+    "TarskiFlowResult",
+    "DirectedIntInequality",
+    "HybridTorsorTarskiResult",
+    "solve_hybrid_torsor_tarski",
+    "check_hybrid_feasible",
+    "FirewallClaim",
+    "FirewallVerdict",
+    "IncrementalSheafFirewall",
+    "SUPPORTED_DOMAINS",
+    "ContradictionAutopsy",
+    "compile_and_verify",
+    "verify_json_file",
+    "symmetric_eigenvalues_float64",
+    "svd_golub_kahan_float64",
+    "evaluate_float64_laplacian",
+    "evaluate_float64_svd_torsor",
+    "l2_hodge_harmonic_cg",
+]

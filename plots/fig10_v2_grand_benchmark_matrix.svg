@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1180" height="610" viewBox="0 0 1180 610">
+  <rect x="0" y="0" width="1180" height="610" fill="#0d1117"/>
+  <text x="32" y="34" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="20" font-weight="700">Fig 10. Grand Adversarial Tournament Matrix: 1,000 Instances Across 8 Paradox Classes x 5 Solver Tiers</text>
+  <text x="32" y="56" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="12">Deterministic Evaluation (seed=20261119, 125 Instances/Class): Zero Synthetic Metrics, Full Zero-Trust Certification</text>
+  <rect x="32" y="74" width="1116" height="434" rx="8" fill="#161b22" stroke="#30363d"/>
+  <text x="50.0" y="102.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="start">Paradox Class (125 instances each)</text>
+  <text x="416.2" y="96.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">T1: float64 L_0</text>
+  <text x="416.2" y="112.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle">atol=1e-12</text>
+  <text x="572.6" y="96.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">T2: float64 SVD</text>
+  <text x="572.6" y="112.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle">Golub-Kahan</text>
+  <text x="729.0" y="96.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">T3: Exact Q</text>
+  <text x="729.0" y="112.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle">Sparse Markowitz</text>
+  <text x="885.4" y="96.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">T4: v1.0 Engine</text>
+  <text x="885.4" y="112.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle">Z/Q + B&amp;B (No CG)</text>
+  <text x="1041.8" y="96.0" fill="#3fb950" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="700" text-anchor="middle">T5: v2.0 Full Radar</text>
+  <text x="1041.8" y="112.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="9" font-weight="400" text-anchor="middle">CRT+CG+Compiler</text>
+  <line x1="44" y1="122" x2="1136" y2="122" stroke="#30363d"/>
+  <text x="50.0" y="152.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">I. Scale-Trap Loops {-2..2}</text>
+  <rect x="344.0" y="133" width="144.4" height="30" rx="5" fill="#3a2112" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="152.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">49.6% (63 FN)</text>
+  <rect x="500.4" y="133" width="144.4" height="30" rx="5" fill="#3a2112" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="152.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">49.6% (63 FN)</text>
+  <rect x="656.8" y="133" width="144.4" height="30" rx="5" fill="#332810" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="152.0" fill="#d29922" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">76.0% (30 FN)</text>
+  <rect x="813.2" y="133" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="152.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="969.6" y="133" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="152.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="190.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">II. Non-Dyadic Hilbert Decoys</text>
+  <rect x="344.0" y="171" width="144.4" height="30" rx="5" fill="#3a2112" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="190.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">68.0% (40 FN)</text>
+  <rect x="500.4" y="171" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="190.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FP)</text>
+  <rect x="656.8" y="171" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="190.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="813.2" y="171" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="190.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="969.6" y="171" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="190.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="228.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">III. Z_m Torsion &amp; Liar Twists</text>
+  <rect x="344.0" y="209" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="228.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="500.4" y="209" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="228.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="656.8" y="209" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="228.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="813.2" y="209" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="228.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="969.6" y="209" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="228.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="266.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">IV. Simplicial H^2 Voids (RP^2/S^2)</text>
+  <rect x="344.0" y="247" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="266.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="500.4" y="247" width="144.4" height="30" rx="5" fill="#3a2112" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="266.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">53.6% (58 FN)</text>
+  <rect x="656.8" y="247" width="144.4" height="30" rx="5" fill="#3a2112" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="266.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">53.6% (58 FN)</text>
+  <rect x="813.2" y="247" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="266.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="969.6" y="247" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="266.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="304.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">V. Caru &amp; Tarski Bounded Ghosts</text>
+  <rect x="344.0" y="285" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="304.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="500.4" y="285" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="304.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="656.8" y="285" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="304.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="813.2" y="285" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="304.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="969.6" y="285" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="304.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="342.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">VI. Unpeelable Expanders &amp; Moore</text>
+  <rect x="344.0" y="323" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="342.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">36.0% (80 FN)</text>
+  <rect x="500.4" y="323" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="342.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">36.0% (80 FN)</text>
+  <rect x="656.8" y="323" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="342.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">36.0% (80 FN)</text>
+  <rect x="813.2" y="323" width="144.4" height="30" rx="5" fill="#143022" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="342.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <rect x="969.6" y="323" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="342.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="380.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">VII. Quantum Contextuality &amp; CG</text>
+  <rect x="344.0" y="361" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="380.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="500.4" y="361" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="380.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="656.8" y="361" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="380.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">32.0% (85 FN)</text>
+  <rect x="813.2" y="361" width="144.4" height="30" rx="5" fill="#332810" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="380.0" fill="#d29922" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">87.2% (16 TO)</text>
+  <rect x="969.6" y="361" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="380.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <text x="50.0" y="418.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="11" font-weight="600" text-anchor="start">VIII. Compiled 5-Domain Paradoxes</text>
+  <rect x="344.0" y="399" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="416.2" y="418.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">20.0% (100 FN)</text>
+  <rect x="500.4" y="399" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="572.6" y="418.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">20.0% (100 FN)</text>
+  <rect x="656.8" y="399" width="144.4" height="30" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="0.8"/>
+  <text x="729.0" y="418.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">40.0% (75 FN)</text>
+  <rect x="813.2" y="399" width="144.4" height="30" rx="5" fill="#332810" stroke="#30363d" stroke-width="0.8"/>
+  <text x="885.4" y="418.0" fill="#d29922" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">80.0% (25 TO)</text>
+  <rect x="969.6" y="399" width="144.4" height="30" rx="5" fill="#133a22" stroke="#30363d" stroke-width="0.8"/>
+  <text x="1041.8" y="418.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="10" font-weight="700" text-anchor="middle">100.0%</text>
+  <line x1="44" y1="436" x2="1136" y2="436" stroke="#30363d" stroke-width="1.5"/>
+  <text x="50.0" y="464.0" fill="#e6edf3" font-family="Helvetica, Arial, sans-serif" font-size="12" font-weight="700" text-anchor="start">OVERALL (1,000 Instances)</text>
+  <rect x="344.0" y="444" width="144.4" height="34" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="1.0"/>
+  <text x="416.2" y="465.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle">377/1000 (37.7%)</text>
+  <rect x="500.4" y="444" width="144.4" height="34" rx="5" fill="#3b1518" stroke="#30363d" stroke-width="1.0"/>
+  <text x="572.6" y="465.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle">359/1000 (35.9%)</text>
+  <rect x="656.8" y="444" width="144.4" height="34" rx="5" fill="#3a2112" stroke="#30363d" stroke-width="1.0"/>
+  <text x="729.0" y="465.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle">502/1000 (50.2%)</text>
+  <rect x="813.2" y="444" width="144.4" height="34" rx="5" fill="#332810" stroke="#30363d" stroke-width="1.0"/>
+  <text x="885.4" y="465.0" fill="#d29922" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle">959/1000 (95.9%)</text>
+  <rect x="969.6" y="444" width="144.4" height="34" rx="5" fill="#133a22" stroke="#3fb950" stroke-width="2.0"/>
+  <text x="1041.8" y="465.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="middle">1000/1000 (100.0%)</text>
+  <rect x="32.0" y="522" width="213.6" height="68" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.0"/>
+  <text x="44.0" y="544.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start">T1 float64 L_0</text>
+  <text x="44.0" y="568.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="start">37.7% | 623 FN</text>
+  <rect x="257.6" y="522" width="213.6" height="68" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.0"/>
+  <text x="269.6" y="544.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start">T2 float64 SVD</text>
+  <text x="269.6" y="568.0" fill="#f85149" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="start">35.9% | 85 FP, 556 FN</text>
+  <rect x="483.2" y="522" width="213.6" height="68" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.0"/>
+  <text x="495.2" y="544.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start">T3 Exact Q</text>
+  <text x="495.2" y="568.0" fill="#f0883e" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="start">50.2% | 498 Torsion/Box FN</text>
+  <rect x="708.8" y="522" width="213.6" height="68" rx="6" fill="#161b22" stroke="#30363d" stroke-width="1.0"/>
+  <text x="720.8" y="544.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start">T4 v1.0 Engine</text>
+  <text x="720.8" y="568.0" fill="#d29922" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="start">95.9% | 41 CG Timeouts</text>
+  <rect x="934.4" y="522" width="213.6" height="68" rx="6" fill="#161b22" stroke="#3fb950" stroke-width="1.6"/>
+  <text x="946.4" y="544.0" fill="#8b949e" font-family="Helvetica, Arial, sans-serif" font-size="10" font-weight="700" text-anchor="start">T5 v2.0 Full Radar</text>
+  <text x="946.4" y="568.0" fill="#3fb950" font-family="Menlo, Monaco, Consolas, monospace" font-size="11" font-weight="700" text-anchor="start">100.0% | 0 FP, 0 FN, 0 TO</text>
+</svg>

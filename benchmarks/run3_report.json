@@ -1,0 +1,118 @@
+{
+  "attack1_asymmetric_horn": {
+    "valid_horn_dags": [
+      {
+        "depth": 4,
+        "tarski_consistent": true,
+        "tarski_iterations": 0,
+        "tarski_false_positive": false,
+        "linear_sheaf_status": "UNSAT_FREE_COHOMOLOGY",
+        "linear_sheaf_false_positive": true
+      },
+      {
+        "depth": 12,
+        "tarski_consistent": true,
+        "tarski_iterations": 0,
+        "tarski_false_positive": false,
+        "linear_sheaf_status": "UNSAT_FREE_COHOMOLOGY",
+        "linear_sheaf_false_positive": true
+      },
+      {
+        "depth": 30,
+        "tarski_consistent": true,
+        "tarski_iterations": 0,
+        "tarski_false_positive": false,
+        "linear_sheaf_status": "UNSAT_FREE_COHOMOLOGY",
+        "linear_sheaf_false_positive": true
+      }
+    ],
+    "modus_tollens_contradictions": [
+      {
+        "depth": 5,
+        "diam_G": 6,
+        "n_edges": 30,
+        "tarski_caught": true,
+        "tarski_iterations": 6,
+        "violated_vertices": [
+          0
+        ],
+        "mus_exact_match": true,
+        "mus_len": 5,
+        "mus_oracle_calls": 13
+      },
+      {
+        "depth": 15,
+        "diam_G": 16,
+        "n_edges": 40,
+        "tarski_caught": true,
+        "tarski_iterations": 16,
+        "violated_vertices": [
+          0
+        ],
+        "mus_exact_match": true,
+        "mus_len": 15,
+        "mus_oracle_calls": 32
+      },
+      {
+        "depth": 35,
+        "diam_G": 36,
+        "n_edges": 60,
+        "tarski_caught": true,
+        "tarski_iterations": 36,
+        "violated_vertices": [
+          0
+        ],
+        "mus_exact_match": true,
+        "mus_len": 35,
+        "mus_oracle_calls": 73
+      }
+    ],
+    "powerset_galois": {
+      "adjunction_verified": true,
+      "contradictory_caught": true,
+      "contradictory_iters": 2,
+      "consistent_certified": true
+    }
+  },
+  "attack2_caru_ghosts": {
+    "tier3A_hardy_16var": {
+      "float64_blind": true,
+      "exact_q_blind": true,
+      "exact_z_blind": true,
+      "z_ghost_has_negative": true,
+      "hybrid_status": "UNSAT_HYBRID_TARSKI_GHOST",
+      "pure_1row_tarski_caught": true,
+      "reason": "Interval range contradiction: rhs=1 outside [0, 0]",
+      "elapsed_ms": 0.042
+    },
+    "tier3B_elimination_10var": {
+      "float64_blind": true,
+      "exact_z_blind": true,
+      "naive_1row_tarski_blind": true,
+      "rref_tarski_caught": true,
+      "hybrid_status": "UNSAT_HYBRID_TARSKI_GHOST",
+      "reason": "Interval range contradiction: rhs=-1 outside [0, 1]",
+      "elapsed_ms": 0.144
+    },
+    "tier3C_coupled_order_algebraic": {
+      "pure_z_torsor_blind": true,
+      "pure_tarski_blind": true,
+      "rref_1row_blind": true,
+      "hybrid_status": "UNSAT_HYBRID_TARSKI_GHOST",
+      "bb_nodes": 1,
+      "reason": "Exhaustive exact parametric Tarski B&B refuted [l, u] (1 nodes)",
+      "elapsed_ms": 0.032
+    },
+    "consistent_binary_control": {
+      "hybrid_status": "SAT_HYBRID",
+      "x_feasible": [
+        1,
+        1,
+        0,
+        0,
+        1
+      ],
+      "false_positive": false
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "domain": "access_policy",
+  "title": "Enterprise RBAC Separation-of-Duties Policy (LP-Feasible 3-Triangle Chvatal-Gomory Conflict)",
+  "claims": [
+    {"id": "sod_fin_1", "op": "mutex", "vars": ["role_auditor", "role_treasurer"], "description": "SoD: Auditor and Treasurer are mutually exclusive"},
+    {"id": "sod_fin_2", "op": "mutex", "vars": ["role_treasurer", "role_payer"], "description": "SoD: Treasurer and Payer are mutually exclusive"},
+    {"id": "sod_fin_3", "op": "mutex", "vars": ["role_payer", "role_auditor"], "description": "SoD: Payer and Auditor are mutually exclusive"},
+    {"id": "sod_ops_1", "op": "mutex", "vars": ["role_deployer", "role_approver"], "description": "SoD: Deployer and Approver are mutually exclusive"},
+    {"id": "sod_ops_2", "op": "mutex", "vars": ["role_approver", "role_secops"], "description": "SoD: Approver and SecOps are mutually exclusive"},
+    {"id": "sod_ops_3", "op": "mutex", "vars": ["role_secops", "role_deployer"], "description": "SoD: SecOps and Deployer are mutually exclusive"},
+    {"id": "sod_key_1", "op": "mutex", "vars": ["role_kms_a", "role_kms_b"], "description": "SoD: KMS Shard A and B are mutually exclusive"},
+    {"id": "sod_key_2", "op": "mutex", "vars": ["role_kms_b", "role_kms_c"], "description": "SoD: KMS Shard B and C are mutually exclusive"},
+    {"id": "sod_key_3", "op": "mutex", "vars": ["role_kms_c", "role_kms_a"], "description": "SoD: KMS Shard C and A are mutually exclusive"},
+    {"id": "horn_escalation", "op": "horn", "if_all": ["role_auditor", "role_secops"], "then": "perm_incident_read", "description": "Valid Horn rule: Auditor & SecOps grants incident read"},
+    {"id": "unreasonable_quorum", "op": "cardinality", "vars": ["role_auditor", "role_treasurer", "role_payer", "role_deployer", "role_approver", "role_secops", "role_kms_a", "role_kms_b", "role_kms_c"], "eq": 4, "description": "Faulty compliance mandate: exactly 4 active roles across 3 mutex triangles (LP feasible at 4/9; CG cuts prove <= 3 in 0 branches!)"}
+  ]
+}

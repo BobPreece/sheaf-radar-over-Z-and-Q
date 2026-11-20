@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 540" width="1080" height="540">
+  <title>Figure 6: 500-Instance Adversarial Tournament Scoreboard</title>
+  <defs>
+    <style>
+      .title { font: 700 18px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 12.5px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #475569; }
+      .panel-title { font: 700 13.5px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .axis-label { font: 600 12px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .tick { font: 400 10.5px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #475569; }
+      .legend { font: 500 11px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .annot { font: 600 10.5px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font: 500 11px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #0f172a; }
+      .badge { font: 700 11px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1080" height="540" fill="#ffffff" rx="10"/>
+  <text x="32" y="34" class="title">Figure 6. 500-Instance Adversarial Sophist-vs-Geometer Tournament Scoreboard</text>
+  <text x="32" y="54" class="subtitle">Deterministic benchmark (seed = 20261119) across 5 paradox classes + consistent controls: 500/500 exact certificates verified</text>
+  <text x="64" y="82" class="panel-title">A. Detection Accuracy (%) by Adversarial Paradox Class (100 Instances / Class)</text>
+  <rect x="64" y="108" width="984" height="194" fill="#f8fafc" stroke="#cbd5e1"/>
+  <line x1="64" y1="302.0" x2="1048" y2="302.0" stroke="#e2e8f0"/>
+  <text x="56" y="306.0" text-anchor="end" class="tick">0%</text>
+  <line x1="64" y1="253.5" x2="1048" y2="253.5" stroke="#e2e8f0"/>
+  <text x="56" y="257.5" text-anchor="end" class="tick">25%</text>
+  <line x1="64" y1="205.0" x2="1048" y2="205.0" stroke="#e2e8f0"/>
+  <text x="56" y="209.0" text-anchor="end" class="tick">50%</text>
+  <line x1="64" y1="156.5" x2="1048" y2="156.5" stroke="#e2e8f0"/>
+  <text x="56" y="160.5" text-anchor="end" class="tick">75%</text>
+  <line x1="64" y1="108.0" x2="1048" y2="108.0" stroke="#e2e8f0"/>
+  <text x="56" y="112.0" text-anchor="end" class="tick">100%</text>
+  <rect x="94.4" y="280.7" width="32" height="21.3" rx="3" fill="#dc2626"/>
+  <text x="110.4" y="276.7" text-anchor="middle" class="tick" fill="#dc2626">11%</text>
+  <rect x="129.4" y="205.0" width="32" height="97.0" rx="3" fill="#d97706"/>
+  <text x="145.4" y="201.0" text-anchor="middle" class="tick" fill="#d97706">50%</text>
+  <rect x="164.4" y="108.0" width="32" height="194.0" rx="3" fill="#4f46e5"/>
+  <text x="180.4" y="104.0" text-anchor="middle" class="tick" fill="#4f46e5">100%</text>
+  <rect x="199.4" y="108.0" width="32" height="194.0" rx="3" fill="#059669"/>
+  <text x="215.4" y="104.0" text-anchor="middle" class="tick" fill="#059669">100%</text>
+  <text x="162.4" y="319" text-anchor="middle" class="legend">C1: Float64 Cliff</text>
+  <text x="162.4" y="333" text-anchor="middle" class="tick">&amp; Non-Dyadic</text>
+  <rect x="291.2" y="185.6" width="32" height="116.4" rx="3" fill="#dc2626"/>
+  <text x="307.2" y="181.6" text-anchor="middle" class="tick" fill="#dc2626">60%</text>
+  <rect x="326.2" y="224.4" width="32" height="77.6" rx="3" fill="#d97706"/>
+  <text x="342.2" y="220.4" text-anchor="middle" class="tick" fill="#d97706">40%</text>
+  <rect x="361.2" y="224.4" width="32" height="77.6" rx="3" fill="#4f46e5"/>
+  <text x="377.2" y="220.4" text-anchor="middle" class="tick" fill="#4f46e5">40%</text>
+  <rect x="396.2" y="108.0" width="32" height="194.0" rx="3" fill="#059669"/>
+  <text x="412.2" y="104.0" text-anchor="middle" class="tick" fill="#059669">100%</text>
+  <text x="359.2" y="319" text-anchor="middle" class="legend">C2: Z_m Torsion</text>
+  <text x="359.2" y="333" text-anchor="middle" class="tick">&amp; Mobius</text>
+  <rect x="488.0" y="224.4" width="32" height="77.6" rx="3" fill="#dc2626"/>
+  <text x="504.0" y="220.4" text-anchor="middle" class="tick" fill="#dc2626">40%</text>
+  <rect x="523.0" y="166.2" width="32" height="135.8" rx="3" fill="#d97706"/>
+  <text x="539.0" y="162.2" text-anchor="middle" class="tick" fill="#d97706">70%</text>
+  <rect x="558.0" y="166.2" width="32" height="135.8" rx="3" fill="#4f46e5"/>
+  <text x="574.0" y="162.2" text-anchor="middle" class="tick" fill="#4f46e5">70%</text>
+  <rect x="593.0" y="108.0" width="32" height="194.0" rx="3" fill="#059669"/>
+  <text x="609.0" y="104.0" text-anchor="middle" class="tick" fill="#059669">100%</text>
+  <text x="556.0" y="319" text-anchor="middle" class="legend">C3: Simplicial H^2</text>
+  <text x="556.0" y="333" text-anchor="middle" class="tick">&amp; RP^2 Torsion</text>
+  <rect x="684.8" y="224.4" width="32" height="77.6" rx="3" fill="#dc2626"/>
+  <text x="700.8" y="220.4" text-anchor="middle" class="tick" fill="#dc2626">40%</text>
+  <rect x="719.8" y="108.0" width="32" height="194.0" rx="3" fill="#d97706"/>
+  <text x="735.8" y="104.0" text-anchor="middle" class="tick" fill="#d97706">100%</text>
+  <rect x="754.8" y="108.0" width="32" height="194.0" rx="3" fill="#4f46e5"/>
+  <text x="770.8" y="104.0" text-anchor="middle" class="tick" fill="#4f46e5">100%</text>
+  <rect x="789.8" y="108.0" width="32" height="194.0" rx="3" fill="#059669"/>
+  <text x="805.8" y="104.0" text-anchor="middle" class="tick" fill="#059669">100%</text>
+  <text x="752.8" y="319" text-anchor="middle" class="legend">C4: Shared-Edge</text>
+  <text x="752.8" y="333" text-anchor="middle" class="tick">Decoy Mazes</text>
+  <rect x="881.6" y="224.4" width="32" height="77.6" rx="3" fill="#dc2626"/>
+  <text x="897.6" y="220.4" text-anchor="middle" class="tick" fill="#dc2626">40%</text>
+  <rect x="916.6" y="224.4" width="32" height="77.6" rx="3" fill="#d97706"/>
+  <text x="932.6" y="220.4" text-anchor="middle" class="tick" fill="#d97706">40%</text>
+  <rect x="951.6" y="224.4" width="32" height="77.6" rx="3" fill="#4f46e5"/>
+  <text x="967.6" y="220.4" text-anchor="middle" class="tick" fill="#4f46e5">40%</text>
+  <rect x="986.6" y="108.0" width="32" height="194.0" rx="3" fill="#059669"/>
+  <text x="1002.6" y="104.0" text-anchor="middle" class="tick" fill="#059669">100%</text>
+  <text x="949.6" y="319" text-anchor="middle" class="legend">C5: Tarski Horn</text>
+  <text x="949.6" y="333" text-anchor="middle" class="tick">&amp; Caru Ghosts</text>
+  <rect x="204" y="346" width="12" height="12" rx="2" fill="#dc2626"/>
+  <text x="221" y="356" class="legend">T1: Float64 L_0</text>
+  <rect x="402" y="346" width="12" height="12" rx="2" fill="#d97706"/>
+  <text x="419" y="356" class="legend">T2: Float64 SVD+l_2</text>
+  <rect x="600" y="346" width="12" height="12" rx="2" fill="#4f46e5"/>
+  <text x="617" y="356" class="legend">T3: Exact Q Only</text>
+  <rect x="798" y="346" width="12" height="12" rx="2" fill="#059669"/>
+  <text x="815" y="356" class="legend">T4: Full Z/Q/Tarski Radar</text>
+  <rect x="64" y="376" width="984" height="146" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="78" y="396" class="panel-title">B. Overall 500-Instance Confusion Matrix (300 True Contradictions + 200 Consistent Controls)</text>
+  <rect x="72" y="404" width="968" height="22" rx="4" fill="#e2e8f0"/>
+  <text x="78" y="419" class="axis-label">Solver Tier</text>
+  <text x="316" y="419" class="axis-label">Accuracy</text>
+  <text x="406" y="419" class="axis-label">Precision</text>
+  <text x="496" y="419" class="axis-label">Recall</text>
+  <text x="576" y="419" class="axis-label">F1 Score</text>
+  <text x="668" y="419" class="axis-label">TP</text>
+  <text x="726" y="419" class="axis-label">FP</text>
+  <text x="784" y="419" class="axis-label">TN</text>
+  <text x="842" y="419" class="axis-label">FN</text>
+  <text x="908" y="419" class="axis-label">Avg Time</text>
+  <text x="982" y="419" class="axis-label">l_0 Smear</text>
+  <text x="78" y="441" class="mono" fill="#dc2626">T1: Float64 L_0</text>
+  <text x="316" y="441" class="mono" fill="#0f172a"> 38.20%</text>
+  <text x="406" y="441" class="mono" fill="#0f172a"> 47.34%</text>
+  <text x="496" y="441" class="mono" fill="#0f172a"> 26.67%</text>
+  <text x="576" y="441" class="mono" fill="#0f172a"> 34.12%</text>
+  <text x="668" y="441" class="mono" fill="#0f172a">80</text>
+  <text x="726" y="441" class="mono" fill="#0f172a">89</text>
+  <text x="784" y="441" class="mono" fill="#0f172a">111</text>
+  <text x="842" y="441" class="mono" fill="#0f172a">220</text>
+  <text x="908" y="441" class="mono" fill="#0f172a">2.277ms</text>
+  <text x="982" y="441" class="mono" fill="#0f172a">N/A</text>
+  <text x="78" y="463" class="mono" fill="#d97706">T2: Float64 SVD+l_2</text>
+  <text x="316" y="463" class="mono" fill="#0f172a"> 60.00%</text>
+  <text x="406" y="463" class="mono" fill="#0f172a"> 77.78%</text>
+  <text x="496" y="463" class="mono" fill="#0f172a"> 46.67%</text>
+  <text x="576" y="463" class="mono" fill="#0f172a"> 58.33%</text>
+  <text x="668" y="463" class="mono" fill="#0f172a">140</text>
+  <text x="726" y="463" class="mono" fill="#0f172a">40</text>
+  <text x="784" y="463" class="mono" fill="#0f172a">160</text>
+  <text x="842" y="463" class="mono" fill="#0f172a">160</text>
+  <text x="908" y="463" class="mono" fill="#0f172a">5.935ms</text>
+  <text x="982" y="463" class="mono" fill="#0f172a">22.1% leak</text>
+  <text x="78" y="485" class="mono" fill="#4f46e5">T3: Exact Q Only</text>
+  <text x="316" y="485" class="mono" fill="#0f172a"> 70.00%</text>
+  <text x="406" y="485" class="mono" fill="#0f172a"> 89.47%</text>
+  <text x="496" y="485" class="mono" fill="#0f172a"> 56.67%</text>
+  <text x="576" y="485" class="mono" fill="#0f172a"> 69.39%</text>
+  <text x="668" y="485" class="mono" fill="#0f172a">170</text>
+  <text x="726" y="485" class="mono" fill="#0f172a">20</text>
+  <text x="784" y="485" class="mono" fill="#0f172a">180</text>
+  <text x="842" y="485" class="mono" fill="#0f172a">130</text>
+  <text x="908" y="485" class="mono" fill="#0f172a">0.157ms</text>
+  <text x="982" y="485" class="mono" fill="#0f172a">N/A</text>
+  <rect x="72" y="493" width="968" height="21" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="1"/>
+  <text x="78" y="507" class="badge" fill="#059669">T4: Full Z/Q/Tarski Radar</text>
+  <text x="316" y="507" class="badge" fill="#059669">100.00%</text>
+  <text x="406" y="507" class="badge" fill="#059669">100.00%</text>
+  <text x="496" y="507" class="badge" fill="#059669">100.00%</text>
+  <text x="576" y="507" class="badge" fill="#059669">100.00%</text>
+  <text x="668" y="507" class="badge" fill="#059669">300</text>
+  <text x="726" y="507" class="badge" fill="#059669">0</text>
+  <text x="784" y="507" class="badge" fill="#059669">200</text>
+  <text x="842" y="507" class="badge" fill="#059669">0</text>
+  <text x="908" y="507" class="badge" fill="#059669">0.166ms</text>
+  <text x="982" y="507" class="badge" fill="#059669">0.0% (Exact)</text>
+</svg>

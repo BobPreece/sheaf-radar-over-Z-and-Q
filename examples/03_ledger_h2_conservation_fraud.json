@@ -1,0 +1,17 @@
+{
+  "domain": "conservation_ledger",
+  "title": "6-Subsidiary RP^2 Inter-Company Clearing Ledger (Pairwise Consistent, Global Z/2Z Torsion Fraud)",
+  "claims": [
+    {"id": "triad_012", "op": "triadic_audit", "u": "Sub_A", "v": "Sub_B", "w": "Sub_C", "rhs": 0, "description": "Triadic clearing balance (A, B, C) == 0"},
+    {"id": "triad_023", "op": "triadic_audit", "u": "Sub_A", "v": "Sub_C", "w": "Sub_D", "rhs": 0, "description": "Triadic clearing balance (A, C, D) == 0"},
+    {"id": "triad_034", "op": "triadic_audit", "u": "Sub_A", "v": "Sub_D", "w": "Sub_E", "rhs": 0, "description": "Triadic clearing balance (A, D, E) == 0"},
+    {"id": "triad_045", "op": "triadic_audit", "u": "Sub_A", "v": "Sub_E", "w": "Sub_F", "rhs": 0, "description": "Triadic clearing balance (A, E, F) == 0"},
+    {"id": "triad_051", "op": "triadic_audit", "u": "Sub_A", "v": "Sub_F", "w": "Sub_B", "rhs": 0, "description": "Triadic clearing balance (A, F, B) == 0"},
+    {"id": "triad_124", "op": "triadic_audit", "u": "Sub_B", "v": "Sub_C", "w": "Sub_E", "rhs": 0, "description": "Triadic clearing balance (B, C, E) == 0"},
+    {"id": "triad_235", "op": "triadic_audit", "u": "Sub_C", "v": "Sub_D", "w": "Sub_F", "rhs": 0, "description": "Triadic clearing balance (C, D, F) == 0"},
+    {"id": "triad_341", "op": "triadic_audit", "u": "Sub_D", "v": "Sub_E", "w": "Sub_B", "rhs": 0, "description": "Triadic clearing balance (D, E, B) == 0"},
+    {"id": "triad_452", "op": "triadic_audit", "u": "Sub_E", "v": "Sub_F", "w": "Sub_C", "rhs": 0, "description": "Triadic clearing balance (E, F, C) == 0"},
+    {"id": "triad_513_tampered", "op": "triadic_audit", "u": "Sub_F", "v": "Sub_B", "w": "Sub_D", "rhs": 1, "description": "Tampered clearing statement (F, B, D) == 1 (invisible to float64 & Q; exact Z/2Z H^2 torsion!)"},
+    {"id": "decoy_cash_flow", "op": "potential_diff", "from": "Treasury", "to": "Payroll", "amount": 50000, "description": "Valid decoy transfer: Treasury -> Payroll ($50,000)"}
+  ]
+}

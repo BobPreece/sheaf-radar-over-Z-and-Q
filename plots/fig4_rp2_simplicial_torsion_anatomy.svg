@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 500" width="1060" height="500">
+  <title>Figure 4: 6-Vertex RP^2 Hemi-Icosahedron H^2 Torsion Anatomy</title>
+  <defs>
+    <style>
+      .title { font: 700 18px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .subtitle { font: 400 12.5px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #475569; }
+      .panel-title { font: 700 13.5px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .axis-label { font: 600 12px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .tick { font: 400 10.5px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #475569; }
+      .legend { font: 500 11px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .annot { font: 600 10.5px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+      .mono { font: 500 11px 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace; fill: #0f172a; }
+      .badge { font: 700 11px Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; }
+    </style>
+  </defs>
+  <rect x="0" y="0" width="1060" height="500" fill="#ffffff" rx="10"/>
+  <text x="32" y="34" class="title">Figure 4. 6-Vertex RP^2 Hemi-Icosahedron: Why Float64, H^1, and Q Miss Z/2Z Multi-Premise Paradoxes</text>
+  <text x="32" y="54" class="subtitle">Minimal triangulation of the real projective plane (V = 6, E = 15, F = 10, chi = 1) — exact functoriality delta^1 * delta^0 == 0 over Z</text>
+  <rect x="32" y="76" width="468" height="396" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="46" y="100" class="panel-title">A. 6-Vertex RP^2 Hemi-Icosahedron (10 Triangles, 15 Edges)</text>
+  <circle cx="266.0" cy="292.0" r="156" fill="none" stroke="#4f46e5" stroke-width="1.5" stroke-dasharray="6,4" opacity="0.65"/>
+  <polygon points="266.0,292.0 266.0,204.0 349.7,264.8" fill="#fee2e2" stroke="#64748b" stroke-width="1.4" opacity="0.85"/>
+  <polygon points="266.0,204.0 349.7,264.8 355.3,169.0" fill="#ede9fe" stroke="#4f46e5" stroke-width="1.3" opacity="0.72"/>
+  <polygon points="266.0,292.0 349.7,264.8 317.7,363.2" fill="#e0f2fe" stroke="#64748b" stroke-width="1.4" opacity="0.85"/>
+  <polygon points="349.7,264.8 317.7,363.2 410.6,339.0" fill="#ede9fe" stroke="#4f46e5" stroke-width="1.3" opacity="0.72"/>
+  <polygon points="266.0,292.0 317.7,363.2 214.3,363.2" fill="#e0f2fe" stroke="#64748b" stroke-width="1.4" opacity="0.85"/>
+  <polygon points="317.7,363.2 214.3,363.2 266.0,444.0" fill="#ede9fe" stroke="#4f46e5" stroke-width="1.3" opacity="0.72"/>
+  <polygon points="266.0,292.0 214.3,363.2 182.3,264.8" fill="#e0f2fe" stroke="#64748b" stroke-width="1.4" opacity="0.85"/>
+  <polygon points="214.3,363.2 182.3,264.8 121.4,339.0" fill="#ede9fe" stroke="#4f46e5" stroke-width="1.3" opacity="0.72"/>
+  <polygon points="266.0,292.0 182.3,264.8 266.0,204.0" fill="#e0f2fe" stroke="#64748b" stroke-width="1.4" opacity="0.85"/>
+  <polygon points="182.3,264.8 266.0,204.0 176.7,169.0" fill="#ede9fe" stroke="#4f46e5" stroke-width="1.3" opacity="0.72"/>
+  <text x="293.9" y="257.6" text-anchor="middle" class="badge" fill="#dc2626">d0=1</text>
+  <circle cx="266.0" cy="292.0" r="12" fill="#059669" stroke="#ffffff" stroke-width="2"/>
+  <text x="266.0" y="296.0" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">0</text>
+  <circle cx="266.0" cy="204.0" r="12" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <text x="266.0" y="208.0" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">1</text>
+  <circle cx="349.7" cy="264.8" r="12" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <text x="349.7" y="268.8" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">2</text>
+  <circle cx="317.7" cy="363.2" r="12" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <text x="317.7" y="367.2" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">3</text>
+  <circle cx="214.3" cy="363.2" r="12" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <text x="214.3" y="367.2" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">4</text>
+  <circle cx="182.3" cy="264.8" r="12" fill="#2563eb" stroke="#ffffff" stroke-width="2"/>
+  <text x="182.3" y="268.8" text-anchor="middle" font-size="11" font-weight="700" fill="#ffffff" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">5</text>
+  <circle cx="355.3" cy="169.0" r="11" fill="#ffffff" stroke="#4f46e5" stroke-width="2.2"/>
+  <text x="355.3" y="173.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#4f46e5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">4*</text>
+  <circle cx="410.6" cy="339.0" r="11" fill="#ffffff" stroke="#4f46e5" stroke-width="2.2"/>
+  <text x="410.6" y="343.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#4f46e5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">5*</text>
+  <circle cx="266.0" cy="444.0" r="11" fill="#ffffff" stroke="#4f46e5" stroke-width="2.2"/>
+  <text x="266.0" y="448.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#4f46e5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">1*</text>
+  <circle cx="121.4" cy="339.0" r="11" fill="#ffffff" stroke="#4f46e5" stroke-width="2.2"/>
+  <text x="121.4" y="343.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#4f46e5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">2*</text>
+  <circle cx="176.7" cy="169.0" r="11" fill="#ffffff" stroke="#4f46e5" stroke-width="2.2"/>
+  <text x="176.7" y="173.0" text-anchor="middle" font-size="10.5" font-weight="700" fill="#4f46e5" font-family="Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">3*</text>
+  <text x="266.0" y="458" text-anchor="middle" class="tick">Outer v* identified antipodally (Mobius glue) | Every edge in exactly 2 faces</text>
+  <rect x="528" y="76" width="500" height="174" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="542" y="100" class="panel-title">B. Exact Smith Normal Form Spectrum of delta^1 (10 x 15)</text>
+  <rect x="570" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="587.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d1=1</text>
+  <text x="587.0" y="234" text-anchor="middle" class="tick">#1</text>
+  <rect x="614" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="631.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d2=1</text>
+  <text x="631.0" y="234" text-anchor="middle" class="tick">#2</text>
+  <rect x="658" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="675.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d3=1</text>
+  <text x="675.0" y="234" text-anchor="middle" class="tick">#3</text>
+  <rect x="702" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="719.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d4=1</text>
+  <text x="719.0" y="234" text-anchor="middle" class="tick">#4</text>
+  <rect x="746" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="763.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d5=1</text>
+  <text x="763.0" y="234" text-anchor="middle" class="tick">#5</text>
+  <rect x="790" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="807.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d6=1</text>
+  <text x="807.0" y="234" text-anchor="middle" class="tick">#6</text>
+  <rect x="834" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="851.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d7=1</text>
+  <text x="851.0" y="234" text-anchor="middle" class="tick">#7</text>
+  <rect x="878" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="895.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d8=1</text>
+  <text x="895.0" y="234" text-anchor="middle" class="tick">#8</text>
+  <rect x="922" y="174" width="34" height="44" rx="4" fill="#64748b"/>
+  <text x="939.0" y="168" text-anchor="middle" class="badge" fill="#64748b">d9=1</text>
+  <text x="939.0" y="234" text-anchor="middle" class="tick">#9</text>
+  <rect x="966" y="128" width="34" height="90" rx="4" fill="#dc2626"/>
+  <text x="983.0" y="122" text-anchor="middle" class="badge" fill="#dc2626">d10=2</text>
+  <text x="983.0" y="234" text-anchor="middle" class="tick">#10</text>
+  <text x="838.4" y="138" class="annot" fill="#dc2626">Z/2Z Torsion Pivot -&gt;</text>
+  <rect x="528" y="266" width="500" height="206" rx="8" fill="#f8fafc" stroke="#cbd5e1"/>
+  <text x="542" y="290" class="panel-title">C. Multi-Premise Paradox Detection on RP^2 (d = [1, 0, ..., 0])</text>
+  <rect x="536" y="300" width="484" height="24" rx="4" fill="#e2e8f0"/>
+  <text x="542" y="316" class="axis-label">Solver Engine</text>
+  <text x="696" y="316" class="axis-label">Cohomology Seen</text>
+  <text x="816" y="316" class="axis-label">Torsor Output</text>
+  <text x="946" y="316" class="axis-label">Verdict</text>
+  <rect x="536" y="330" width="484" height="28" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="0.8"/>
+  <text x="542" y="348" class="legend">IEEE-754 Float64 SVD</text>
+  <text x="696" y="348" class="mono">rank = 10/10</text>
+  <text x="816" y="348" class="mono">res = 0.0e+00</text>
+  <text x="940" y="348" class="badge" fill="#dc2626">BLIND (FN)</text>
+  <rect x="536" y="363" width="484" height="28" rx="4" fill="#fef2f2" stroke="#dc2626" stroke-width="0.8"/>
+  <text x="542" y="381" class="legend">Pairwise H^1 (1-cells)</text>
+  <text x="696" y="381" class="mono">H^1(RP^2) = 0</text>
+  <text x="816" y="381" class="mono">All loops SAT</text>
+  <text x="940" y="381" class="badge" fill="#dc2626">BLIND (FN)</text>
+  <rect x="536" y="396" width="484" height="28" rx="4" fill="#fffbeb" stroke="#d97706" stroke-width="0.8"/>
+  <text x="542" y="414" class="legend">Exact Q Cohomology</text>
+  <text x="696" y="414" class="mono">H^2(RP^2; Q) = 0</text>
+  <text x="816" y="414" class="mono">SAT_Q (den=2)</text>
+  <text x="940" y="414" class="badge" fill="#d97706">BLIND (FN)</text>
+  <rect x="536" y="429" width="484" height="28" rx="4" fill="#ecfdf5" stroke="#059669" stroke-width="0.8"/>
+  <text x="542" y="447" class="legend">Exact Z SNF + Torsor</text>
+  <text x="696" y="447" class="mono">H^2(Z) = Z/2Z</text>
+  <text x="816" y="447" class="mono">UNSAT_TORSION (2,1)</text>
+  <text x="940" y="447" class="badge" fill="#059669">CAUGHT + MUS</text>
+</svg>

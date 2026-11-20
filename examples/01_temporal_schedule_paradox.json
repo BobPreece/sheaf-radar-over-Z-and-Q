@@ -1,0 +1,57 @@
+{
+  "domain": "temporal_schedule",
+  "title": "Distributed Microservice Periodic Cron & Maintenance Window Paradox",
+  "claims": [
+    {
+      "id": "cron_ingest_to_etl",
+      "op": "modular_clock",
+      "a": "ingest_job",
+      "b": "etl_job",
+      "delta": 7,
+      "modulus": 24,
+      "description": "ETL runs 7 hours after Ingest on a 24-hour periodic clock"
+    },
+    {
+      "id": "cron_etl_to_index",
+      "op": "modular_clock",
+      "a": "etl_job",
+      "b": "index_job",
+      "delta": 11,
+      "modulus": 24,
+      "description": "Index rebuild runs 11 hours after ETL on a 24-hour periodic clock"
+    },
+    {
+      "id": "cron_index_to_backup",
+      "op": "modular_clock",
+      "a": "index_job",
+      "b": "backup_job",
+      "delta": 9,
+      "modulus": 24,
+      "description": "Snapshot backup runs 9 hours after Index rebuild (mod 24)"
+    },
+    {
+      "id": "cron_backup_to_ingest_SLA",
+      "op": "modular_clock",
+      "a": "backup_job",
+      "b": "ingest_job",
+      "delta": 22,
+      "modulus": 24,
+      "description": "Faulty SLA: Ingest scheduled 22 hours after Backup (7+11+9+22 = 49 == 1 mod 24 != 0)"
+    },
+    {
+      "id": "unrelated_healthcheck",
+      "op": "offset",
+      "a": "metrics_scrape",
+      "b": "alert_eval",
+      "delta": 1,
+      "description": "Unrelated decoy: Alert evaluation runs 1 hour after Metrics scrape"
+    },
+    {
+      "id": "unrelated_anchor",
+      "op": "anchor",
+      "var": "metrics_scrape",
+      "value": 0,
+      "description": "Unrelated decoy: Metrics scrape anchored at t = 0"
+    }
+  ]
+}
